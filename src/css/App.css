@@ -76,7 +76,7 @@ button {
   border-radius: 1rem;
   border: None;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease; /* Add a transition for the box-shadow property */
 }
