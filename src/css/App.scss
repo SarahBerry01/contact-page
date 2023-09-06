@@ -1,0 +1,101 @@
+@import url(reset);
+@import url(blobz.css);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  }
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    background-size: 200%;
+    background-image: linear-gradient(40deg, #fda403, #F05941, #c51350, #8a1253);
+    animation: bg-animation 25s infinite;
+  }
+  
+  @keyframes bg-animation {
+    0% {
+        background-position: left;
+      }
+      50% {
+        background-position: right;
+      }
+      100% {
+        background-position: left;
+      }
+  }
+
+  .Me{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .Blob-Container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+  }
+
+  .Blob{
+    width: 40%;
+  }
+
+  .Link-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    
+  }
+
+  .Button-Link{
+    height: 80%;
+    aspect-ratio: 1;
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+
+  button{
+    height: 100%;
+    aspect-ratio: 1;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: None;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; /* Add a transition for the box-shadow property */
+
+  }
+
+  button:hover {
+    box-shadow: none;
+  }
+
+
+  p{
+    font-size: 1.2rem;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
