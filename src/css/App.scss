@@ -1,9 +1,11 @@
-@import url(reset);
+@import url(reset.css);
 @import url(blobz.css);
 
 body {
   font-family: 'Roboto', sans-serif;
   color: white;
+  width: 100vw;
+  height: 100vh;
   }
 
 .App{
